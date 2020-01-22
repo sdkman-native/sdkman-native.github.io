@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths" lang="en"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JDK Distributions - SDKMAN! the Software Development Kit Manager</title>
+    <link href="https://sdkman.io/assets//img/favicon.ico" type="image/x-ico" rel="icon">
+    <link rel="stylesheet" type="text/css" href="assets/files/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="assets/files/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/files/style.css">
+</head>
+
+<body style="">
+<div id="fork-me">
+    <a href="https://github.com/sdkman-native/sdkman-native-cli">
+        <img style="position: fixed; top: -14px; right: -14px; border: 0; z-index: 100" src="assets/img/forkme_right_red_aa0000.png" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png">
+    </a>
+</div>
+
+<div id="st-container" class="st-container st-effect-9">
+
+    <div class="st-pusher">
+        <div class="st-content">
+            <div class="st-content-inner">
+                <!--[if lt IE 7]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a
+        href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+                <div>
+                    <div class="navbar navbar-default navbar-static-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only"></span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">
+                <img class="sdk-logo" src="assets/img/sdk-man-small-pattern.png">
+            </a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li class=""><a href="install.html">Install</a></li>
+                <li class=""><a href="jdks.html">JDKs</a></li>
+                <li class=""><a href="sdks.html">SDKs</a></li>
+                <li class=""><a href="usage.html">Usage</a></li>
+                <li class=""><a href="vendors.html">Vendors</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+                    
+<div id="content" class="page-1">
+    <div class="row">
+        <div class="row-fluid">
+            <div class="col-lg-3">
+                <ul class="nav-sidebar">
+                    <li class="active"><a href="jdks.html"><strong>Available JDKs</strong></a></li>
+                    
+                    <li><a href="#Amazon" class="anchor-link">Corretto: <em>Amazon</em></a></li>
+                    
+                    <li><a href="#Oracle" class="anchor-link">GraalVM: <em>Oracle</em></a></li>
+                    
+                    <li><a href="#Bellsoft" class="anchor-link">Liberica: <em>Bellsoft</em></a></li>
+                    
+                    <li><a href="#AdoptOpenJDK" class="anchor-link">OpenJDK: <em>AdoptOpenJDK</em></a></li>
+                    
+                    <li><a href="#jdk.java.net" class="anchor-link">OpenJDK: <em>jdk.java.net</em></a></li>
+                    
+                    <li><a href="#SAP" class="anchor-link">SapMachine: <em>SAP</em></a></li>
+                    
+                    <li><a href="#Azul%20Systems" class="anchor-link">Zulu: <em>Azul Systems</em></a></li>
+                    
+                </ul>
+            </div>
+            <div class="col-lg-8 col-lg-pull-0">
+                <h1><a name="main"></a><i class="fa fa-cloud-download"></i> JDK Distributions</h1>
+
+                <ul>
+                    
+                    <a name="Amazon"></a>
+                    <li>
+                        <h4>Corretto</h4>
+                        <a href="https://aws.amazon.com/corretto/" target="_blank"><h5>Amazon</h5></a>
+                        <p>
+    Amazon Corretto is a no-cost, multiplatform, production-ready distribution
+    of the Open Java Development Kit (OpenJDK). Corretto comes with long-term
+    support that will include performance enhancements and security fixes.
+    Amazon runs Corretto internally on thousands of production services and
+    Corretto is certified as compatible with the Java SE standard. With
+    Corretto, you can develop and run Java applications on popular operating
+    systems, including Linux, Windows, and macOS.
+    </p>
+                        <code>$ sdk install java x.y.z-amzn</code>
+                        <hr>
+                    </li>
+                    
+                    <a name="Oracle"></a>
+                    <li>
+                        <h4>GraalVM</h4>
+                        <a href="https://www.graalvm.org/" target="_blank"><h5>Oracle</h5></a>
+                        <p>
+    GraalVM is a universal virtual machine for running applications written in
+    JavaScript, Python, Ruby, R, JVM-based languages like Java, Scala, Groovy,
+    Kotlin, Clojure, and LLVM-based languages such as C and C++. GraalVM
+    removes the isolation between programming languages and enables
+    interoperability in a shared runtime. It can run either standalone or in
+    the context of OpenJDK, Node.js or Oracle Database.
+    </p>
+                        <code>$ sdk install java x.y.z-grl</code>
+                        <hr>
+                    </li>
+                    
+                    <a name="Bellsoft"></a>
+                    <li>
+                        <h4>Liberica</h4>
+                        <a href="https://bell-sw.com/" target="_blank"><h5>Bellsoft</h5></a>
+                        <p>
+    Liberica is a 100% open-source Java implementation. It is built from
+    OpenJDK which BellSoft contributes to, is thoroughly tested and passed the
+    JCK provided under the license from OpenJDK. All supported versions of
+    Liberica also contain JavaFX 12.
+    </p>
+                        <code>$ sdk install java x.y.z-librca</code>
+                        <hr>
+                    </li>
+                    
+                    <a name="AdoptOpenJDK"></a>
+                    <li>
+                        <h4>OpenJDK</h4>
+                        <a href="https://adoptopenjdk.net/" target="_blank"><h5>AdoptOpenJDK</h5></a>
+                        <p>
+    AdoptOpenJDK.net started in 2017 following years of discussions about the
+    general lack of an open and reproducible build and test system for OpenJDK
+    source across multiple platforms. AdoptOpenJDK provides rock-solid OpenJDK
+    binaries for the Java ecosystem and also provides infrastructure as code,
+    and a Build farm for builders of OpenJDK, on any platform.
+    </p>
+                        <code>$ sdk install java x.y.z-adpt</code>
+                        <hr>
+                    </li>
+                    
+                    <a name="jdk.java.net"></a>
+                    <li>
+                        <h4>OpenJDK</h4>
+                        <a href="https://jdk.java.net/" target="_blank"><h5>jdk.java.net</h5></a>
+                        <p>
+    OpenJDK (Open Java Development Kit) is a free and open-source
+    implementation of the Java Platform, Standard Edition (Java SE). It is the
+    result of an effort Sun Microsystems began in 2006. The implementation is
+    licensed under the GNU General Public License (GNU GPL) version 2 with a
+    linking exception. Were it not for the GPL linking exception, components
+    that linked to the Java class library would be subject to the terms of the
+    GPL license. OpenJDK is the official reference implementation of Java SE
+    since version 7.
+    </p>
+                        <code>$ sdk install java x.y.z-open</code>
+                        <hr>
+                    </li>
+                    
+                    <a name="SAP"></a>
+                    <li>
+                        <h4>SapMachine</h4>
+                        <a href="https://sap.github.io/SapMachine/" target="_blank"><h5>SAP</h5></a>
+                        <p>
+    SAP SE is a German multinational software corporation that makes enterprise
+    software to manage business operations and customer relations. SAP is
+    headquartered in Walldorf, Baden-Württemberg, Germany with regional offices
+    in 180 countries. SapMachine is a downstream version of the OpenJDK
+    project. It is used to build and maintain a SAP supported version of
+    OpenJDK for SAP customers and partners who wish to use OpenJDK to run their
+    applications. SAP is committed to ensuring the continued success of the
+    Java platform.
+    </p>
+                        <code>$ sdk install java x.y.z-sapmchn</code>
+                        <hr>
+                    </li>
+                    
+                    <a name="Azul Systems"></a>
+                    <li>
+                        <h4>Zulu</h4>
+                        <a href="https://www.azul.com/downloads/zulu/" target="_blank"><h5>Azul Systems</h5></a>
+                        <p>
+    Azul Systems serves companies who need to deliver server-based Java
+    applications for their web-facing customers (travel, online retail, gaming,
+    SaaS), meet specific latency targets for real-time business systems
+    (advertising networks, capital markets, communications) ensure timely
+    maintenance or security updates for essential applications, or deliver
+    Java-based systems for embedded and IoT use cases.
+    </p>
+                        <code>$ sdk install java x.y.z-zulu</code>
+                        <hr>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+                    <footer id="footer">
+    <div class="row">
+        <div class="clearfix">© 2012 - 2020 SDKMAN! is Open Source Software licensed under <a href="http://www.apache.org/licenses/LICENSE-2.0.html">Apache 2</a></div>
+        <div class="clearfix">Logos and additional Design by <a href="https://github.com/dmesu">Daida
+            Medina</a></div>
+    </div>
+</footer>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="assets/files/jquery-1.10.2.min.js.download" defer=""></script>
+<script src="assets/files/classie.js.download" defer=""></script>
+<script src="assets/files/bootstrap.js.download" defer=""></script>
+<script src="assets/files/sidebarEffects.js.download" defer=""></script>
+<script src="assets/files/modernizr-2.6.2.min.js.download" defer=""></script>
+<script src="assets/files/plugins.js.download" defer=""></script>
+<script src="assets/files/script.js.download"></script>
+
+</body></html>
